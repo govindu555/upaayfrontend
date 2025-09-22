@@ -1,0 +1,32 @@
+.formmain{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.formhead{
+    font-size: 20px;
+    color: gray;
+}
+
+.forminput{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+
+.formitems{
+    margin-bottom: 30px;
+}
+
+.formsubmit{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.formsubmit:hover{
+    cursor: pointer;
+}

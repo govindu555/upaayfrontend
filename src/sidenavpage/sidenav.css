@@ -1,0 +1,122 @@
+.sidenavmain{
+    width: 13vw;
+    position: fixed;
+    top: 100px;
+    margin-left: 30px;
+    box-shadow: 1px 1px lightgrey;
+}
+
+.sideitems{
+    margin-bottom: 15px;
+}
+
+.sideitem{
+    margin-left:15px;
+    font-size: 15px;
+    color: gray;
+}
+
+.sideitem:hover{
+    cursor: pointer;
+}
+
+.sideitems:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.sideproject{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.sideicon1{
+    padding-left: 80px;
+}
+
+.line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.sideimg{
+    background-color: white;
+    height: 15px;
+}
+
+.sideimage{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(254, 224, 229);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.sidebox{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.sidetext{
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.sidepara{
+    font-size: 10px;
+    color: gray;
+}
+
+.sidebutton{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.sidecircle1{
+    width: 10px;
+    height: 10px;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:lightgreen;
+    margin-top: 5px;
+}
+
+.sidecircle2{
+     width: 10px;
+    height: 10px;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:orange;
+    margin-top: 5px;
+}
+
+.sidecircle3{
+     width: 10px;
+    height: 10px;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:lightgray;
+    margin-top: 5px;
+}
+
+.sidecircle4{
+     width: 10px;
+    height: 10px;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:lightblue;
+    margin-top: 5px;
+}
+
+.sideitems2{
+    display: flex;
+}

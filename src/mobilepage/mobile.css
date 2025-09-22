@@ -1,0 +1,271 @@
+.mobilemain{
+    width: 80vw;
+    margin-left: 300px;
+}
+
+.mobileparts{
+    display: grid;
+    grid-template-columns: 380px 350px;
+    position: fixed;
+    top: 80px;
+}
+
+.mobilepart{
+    display: flex;
+}
+
+.mobilehead{
+    font-size: 40px;
+}
+
+.mobilehead2{
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.mobilehead3{
+    margin-right: 20px;
+    background-color:rgb(185, 185, 214);
+    color:blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.mobileparts2{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-left: 550px;
+}
+
+.mobilehead4{
+    font-size: 15px;
+    color: blue;
+    margin-right: 10px;
+}
+
+.mobileimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.mobilehead5{
+    margin-right: 15px;
+    font-size: 15px;
+    background-color:rgb(185, 185, 214);
+    color:blue;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.mobilehead5:hover{
+    cursor: pointer;
+}
+
+.mobileimage2{
+    border-style: solid;
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(242, 201, 207);
+    color: rgb(198, 87, 105);
+    border-width: 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navarrow{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.mobileparts3{
+    display: grid;
+    grid-template-columns: 1000px 200px;
+    position: fixed;
+    top: 200px;
+}
+
+.mobileparts4{
+    display: flex;
+}
+
+.mobileparts5{
+    display: flex;
+}
+
+.mobileitem{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    height: 10px;
+    margin-right: 20px;
+    color: gray;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.mobileitem1{
+    font-size: 30px;
+}
+
+.mobileitem2{
+    width: 30px;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.mobileitem3{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.mobilecircle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border-style: solid;
+    background-color: blue;
+    border-width: 0px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.mobileitems{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobileparts6{
+    width: 20vw;
+    background-color: rgb(241, 241, 241);
+    margin-top: 250px;
+    top: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y:auto;
+    height: 55vh;
+}
+
+.mobileitems2{
+    display: flex;
+}
+
+.mobilehead6{
+    font-size: 15px;
+}
+
+.mobileline{
+    border-width: 2px;
+    border-color: blue;
+}
+
+.mobileparts7{
+    display: flex;
+    justify-content:space-between;
+}
+
+.mobilelow{
+    background-color: rgb(242, 201, 207);
+    color: rgb(198, 87, 105);
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.mobileparts8{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mobilehead7{
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.mobilehead8{
+    font-size: 10px;
+    color: gray;
+    word-wrap: break-word;
+}
+
+.mobileimage3{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.mobilehead9{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+span{
+    font-size: 12px;
+    color: blue;
+}
+
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mobileparts10{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.mobilecircle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border-style: solid;
+    background-color:orange;
+    border-width: 0px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.mobilecircle3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border-style: solid;
+    background-color:lightskyblue;
+    border-width: 0px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.mobileline2{
+     border-width: 2px;
+    border-color:orange;
+}
+
+.mobileline3{
+     border-width: 2px;
+    border-color:lightgreen;
+}
+
+.number{
+    background-color: rgb(207, 207, 207);
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 18px;
+    width: 18px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
+}
