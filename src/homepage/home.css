@@ -1,0 +1,19 @@
+.homemain{
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+}
+
+.homehead{
+    color: lightgray;
+    font-size: 20px;
+}
+
+.homebutton{
+    font-size: 15px;
+}
+
+.homebutton:hover{
+    background-color: blue;
+    color: white;
+}

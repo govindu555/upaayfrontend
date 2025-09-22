@@ -15,12 +15,21 @@ const SideNavPage=()=>{
         nav("/mobile")
    }
 
+   function taskfun(){
+      nav("/form")
+   }
+
+
+   function homefun(){
+      nav("/")
+   }
+
     return(
         <div className="sidenavmain">
             <div>
                 <div className="sideitems">
                     <BsGrid className="sideicon"/>
-                    <label className="sideitem">Home</label>
+                    <label className="sideitem" onClick={homefun}>Home</label>
                 </div>
                 <div className="sideitems">
                     <BsChatSquareDots className="sideicon"/>
@@ -28,7 +37,7 @@ const SideNavPage=()=>{
                 </div>
                 <div className="sideitems">
                     <BsCardChecklist className="sideicon"/>
-                    <label className="sideitem">Tasks</label>
+                    <label className="sideitem" onClick={taskfun}>Tasks</label>
                 </div>
                 <div className="sideitems">
                     <BsPeople className="sideicon"/>

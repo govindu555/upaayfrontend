@@ -5,6 +5,7 @@ import NavPage from './navpage/nav';
 import SideNavPage from './sidenavpage/sidenav';
 import MobilePage from './mobilepage/mobile';
 import FormPage from './formpage/form';
+import HomePage from './homepage/home';
 
 
 const App=()=>{
@@ -16,6 +17,7 @@ const App=()=>{
            <NavPage/>
            <SideNavPage/>
            <Routes>
+              <Route path='/' Component={HomePage}/>
               <Route path='/mobile' Component={MobilePage}/>
               <Route path='/form' Component={FormPage}/>
            </Routes>
